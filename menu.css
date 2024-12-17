@@ -1,0 +1,36 @@
+.main{
+   height: 770px;
+   width: 500px;
+   border: 4px solid white;
+   background-color: rgb(74, 4, 4);
+   color: white;
+  margin-left: 500px;
+  border-radius: 4rem;
+  animation-name: colorAnimate;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in;
+    animation-delay: 0.23s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes colorAnimate{
+    from{left: 0px; background-color: yellowgreen;}
+    to{left: 200px; background-color: rgb(50, 152, 110);color: rgb(26, 112, 68);}
+}
+
+body{
+   background-image: url("coffee.jpg");
+   background-size: cover;
+ 
+}
+h1{
+   margin-left: 128px;
+  
+}
+.coffeeitems{
+   color: white;
+   margin-left: 160px;
+}
+h3{
+   margin-left: 210px;
+}
